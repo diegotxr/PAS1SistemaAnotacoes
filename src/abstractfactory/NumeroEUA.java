@@ -17,7 +17,7 @@ public class NumeroEUA  implements AbstractNumero{
     }
     
     public void exibir(){
-        System.out.println("(1) "+this.getNumero());
+        System.out.println("Number: (1) "+this.getNumero());
     }
 
     /**

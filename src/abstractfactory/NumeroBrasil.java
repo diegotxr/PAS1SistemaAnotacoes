@@ -17,7 +17,7 @@ public class NumeroBrasil implements AbstractNumero{
     }
     
     public void exibir(){
-        System.out.print("(55) "+this.getNumero());
+        System.out.print("Número: (55) "+this.getNumero());
     }
 
     /**

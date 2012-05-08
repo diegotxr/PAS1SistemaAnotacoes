@@ -9,7 +9,6 @@ package abstractfactory;
  * @author GilmarJr
  */
 public interface AbstractNumero {
-    
+
     public void exibir();
-    
 }

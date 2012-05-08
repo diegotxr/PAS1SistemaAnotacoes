@@ -9,7 +9,8 @@ package abstractfactory;
  * @author GilmarJr
  */
 public interface AbstractEndereco {
-    
+
+    public abstract void exibir();
     public void Validar();
     
 }

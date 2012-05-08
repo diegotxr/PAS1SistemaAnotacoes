@@ -9,12 +9,8 @@ package abstractfactory;
  * @author GilmarJr
  */
 public interface Factory {
-    
-     public AbstractNumero criarNumero(String num);
-    
-    public AbstractEndereco criarEndereço(String cidade,String rua,String cep);
 
+    public AbstractNumero criarNumero(String num);
 
-      
-    
+    public AbstractEndereco criarEndereço(String cidade, String rua, String cep);
 }

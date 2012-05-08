@@ -8,14 +8,13 @@ package abstractfactory;
  *
  * @author GilmarJr
  */
-public class EUAfactory implements Factory{
-    
-    
-    public AbstractNumero criarNumero(String num){
+public class EUAfactory implements Factory {
+
+    public AbstractNumero criarNumero(String num) {
         return new NumeroEUA(num);
     }
-    
-    public AbstractEndereco criarEndereço(String cidade,String rua,String cep){
-        return new EnderecoEUA(cidade,rua,cep);
+
+    public AbstractEndereco criarEndereço(String cidade, String rua, String zipCode) {
+        return new EnderecoEUA(cidade, rua, zipCode);
     }
 }

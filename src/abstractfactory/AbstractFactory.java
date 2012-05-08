@@ -14,11 +14,13 @@ public class AbstractFactory {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Factory fabrica= new EUAfactory();
-        AbstractNumero numero= fabrica.criarNumero("3233-8852");
+        Factory fabrica = new BrasilFactory();
+        AbstractNumero numero = fabrica.criarNumero("3233-8852");
         numero.exibir();
-        AbstractEndereco residencia=fabrica.criarEndereço("JoãoPessoa","Epatacio Pessoa","12345-123");
+        AbstractEndereco residencia = fabrica.criarEndereço("João Pessoa", "Eptácio Pessoa", "12345-123");
+        residencia.exibir();
         residencia.Validar();
-        
+
+
     }
 }
